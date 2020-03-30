@@ -1,0 +1,5 @@
+name: LectusConnect
+version: 1.0
+authors: [xamercier]
+main: net.lectusConnect.MainLectusConnect
+depend: [LectusAPI]
