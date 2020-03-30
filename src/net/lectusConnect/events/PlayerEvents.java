@@ -34,7 +34,7 @@ public class PlayerEvents implements Listener {
 		e.getDrops().clear();
 		Player p = e.getEntity();
 		p.resetMaxHealth();
-		p.kickPlayer(ChatColor.RED + "Erreur du chargement de votre profil, veuillez vous reconnecter.");
+		p.kickPlayer(ChatColor.RED + "Erreur du chargement de votre profil, veuillez vous reconnectez.");
 	}
 
 	@EventHandler
